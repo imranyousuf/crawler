@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ title }}</title>
+    <title>Event Crawler</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
+    <h1><center>Event Crawler</center></h1>
+    <p>Step 1: Insert a url to Crawl</p>
+    <input type=search class=searchbar placeholder="https:\\www.example.com">
+
+    <a href="#" class="insert-button">Crawl</a>
   </body>
 </html>
